@@ -31,10 +31,11 @@
 
 ## 🚀 実行方法
 
-1. Python をインストール済みであることを確認
-2. 必要ライブラリをインストール：pip install requests
-   スクリプトを実行：
-   python nagoya_weather_from_jma.pyカレントディレクトリに nagoya_weekly_weather.csv が生成されます
+  1. Python をインストール済みであることを確認
+  2. 必要ライブラリをインストール：pip install requests
+  3.スクリプトを実行：
+     python nagoya_weather_from_jma.py
+  4.カレントディレクトリに nagoya_weekly_weather.csv が生成されます
 
 📊 出力CSVの例
 
