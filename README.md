@@ -1,9 +1,9 @@
-# 名古屋週間天気予報取得スクリプト（気象庁API）
+# 名古屋週間天気予報取得スクリプト（気象庁公開JSONデータ使用）
 
-このリポジトリは、気象庁が提供する公開JSONデータを利用して、名古屋市の週間天気情報を取得し、CSVファイルに保存するPythonスクリプトです。
+このリポジトリは、気象庁が提供している**JSON形式の天気予報データ**を使用し、名古屋市の週間天気情報を取得してCSVファイルに保存するPythonスクリプトです。
 
 ## 📌 特徴
-- 気象庁の公式APIを使用
+- 気象庁が提供する公開JSONデータを使用（APIキー不要）
 - 天気、最高気温、最低気温、降水確率、信頼度を一括取得
 - CSV出力によりデータ分析や自動処理に活用可能
 
@@ -25,16 +25,16 @@
 2. ライブラリをインストール：
 
 
-pip install requests
+  pip install requests
 
 
 3. スクリプトを実行：
 
 
-python nagoya_weather_from_jma.py
+  python nagoya_weather_from_jma.py
 
 
-→ カレントディレクトリに `nagoya_weekly_weather.csv` が生成されます。
+  → カレントディレクトリに `nagoya_weekly_weather.csv` が生成されます。
 
 ## 📊 出力CSVの例
 
