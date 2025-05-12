@@ -25,16 +25,16 @@
 2. ライブラリをインストール：
 
 
-  pip install requests
+ 　 pip install requests
 
 
 3. スクリプトを実行：
 
 
-  python nagoya_weather_from_jma.py
+ 　 python nagoya_weather_from_jma.py
 
 
-  → カレントディレクトリに `nagoya_weekly_weather.csv` が生成されます。
+ 　 → カレントディレクトリに `nagoya_weekly_weather.csv` が生成されます。
 
 ## 📊 出力CSVの例
 
